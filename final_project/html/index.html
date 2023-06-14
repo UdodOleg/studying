@@ -6,11 +6,14 @@
 	<!-- Назва сторінки -->
 	<title>Мій фінальний сайт</title>
 	<meta charset="UTF-8">
+	<!-- Файли .css -->
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 	<!-- HEADER -->
-	<header>
-		<div>
+	<header class="header">
+		<div class="container">
 			<h1>Main header here</h1>
 			<h2>
 				<small>And small sub header</small>
@@ -20,15 +23,15 @@
 	<!-- /HEADER -->
 
 	<!-- НАВІГАЦІЯ -->
-	<nav>
-		<div>
+	<nav class="page-navigation">
+		<div class="container">
 			<ul>
 				<li><a href="#" class="href">Home</a></li>
 				<li><a href="#" class="href">About</a></li>
 				<li><a href="#" class="href">Contacts</a></li>
 			</ul>
 			<!-- LOGIN FORM -->
-			<form action="#" method="post">
+			<form action="#" method="post" class="login">
 				<input type="text" placeholder="Login" required>
 				<input type="password" placeholder="Password" required>
 				<input type="submit" value="Sign In">
@@ -40,13 +43,13 @@
 
 	<!-- ОСНОВНА ЧАСТИНА -->
 	<main>
-		<div>
-			<h2>Imagine Collection <small>Visualize Quality</small></h2>
-			<div>
-				<div>
-					<div>
+		<div class="container">
+			<h2 class="collection-title">Imagine Collection <small>Visualize Quality</small></h2>
+			<div class="collections">
+				<div class="collection-item-outer">
+					<div class="collection-item">
 						<img src="../photos/profile.jpg" alt="List picture" width="300px" height="">
-						<div>
+						<div class="collection-text">
 							<h3>List Element Item</h3>
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto. Fugit, corporis doloremque quibusdam suscipit autem, eligendi ab blanditiis beatae, minima sunt, consequatur sed delectus repudiandae quaerat in iusto laboriosam minus totam nemo reiciendis excepturi accusamus necessitatibus odio. Ullam, debitis laudantium fugit adipisci consectetur dolorum hic aliquam atque vitae, harum, eaque, nobis dolor quo quos quibusdam. Laborum quidem magni dolores commodi repudiandae accusamus provident illum. Cumque sed, architecto, nemo eaque temporibus est saepe autem quasi, praesentium ex, natus nihil dignissimos.
@@ -55,10 +58,10 @@
 						</div>
 					</div>
 				</div>
-				<div>
-					<div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
 						<img src="../photos/profile.jpg" alt="List picture" width="300px" height="">
-						<div>
+						<div class="collection-text">
 							<h3>List Element Item</h3>
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto. Fugit, corporis doloremque quibusdam suscipit autem, eligendi ab blanditiis beatae, minima sunt, consequatur sed delectus repudiandae quaerat in iusto laboriosam minus totam nemo reiciendis excepturi accusamus necessitatibus odio. Ullam, debitis laudantium fugit adipisci consectetur dolorum hic aliquam atque vitae, harum, eaque, nobis dolor quo quos quibusdam. Laborum quidem magni dolores commodi repudiandae accusamus provident illum. Cumque sed, architecto, nemo eaque temporibus est saepe autem quasi, praesentium ex, natus nihil dignissimos.
@@ -67,10 +70,10 @@
 						</div>
 					</div>
 				</div>
-				<div>
-					<div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
 						<img src="../photos/profile.jpg" alt="List picture" width="300px" height="">
-						<div>
+						<div class="collection-text">
 							<h3>List Element Item</h3>
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto. Fugit, corporis doloremque quibusdam suscipit autem, eligendi ab blanditiis beatae, minima sunt, consequatur sed delectus repudiandae quaerat in iusto laboriosam minus totam nemo reiciendis excepturi accusamus necessitatibus odio. Ullam, debitis laudantium fugit adipisci consectetur dolorum hic aliquam atque vitae, harum, eaque, nobis dolor quo quos quibusdam. Laborum quidem magni dolores commodi repudiandae accusamus provident illum. Cumque sed, architecto, nemo eaque temporibus est saepe autem quasi, praesentium ex, natus nihil dignissimos.
@@ -80,15 +83,14 @@
 					</div>
 				</div>
 			</div>
-			<h2>Text <small>text</small></h2>
 			<h2>Video Collection <small>Visualize Quality</small></h2>
-			<div>
-				<div>
-					<div>
+			<div class="collections">
+					<div class="collection-item-outer">
+					<div class="collection-item">
 						<video controls>
-							<source src="../video/list_video.mp4" type="video">
+							<source src="../video/list_video.mp4">
 						</video>
-						<div>
+						<div class="collection-text">
 							<h3>List Element Item</h3>
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto. Fugit, corporis doloremque quibusdam suscipit autem, eligendi ab blanditiis beatae, minima sunt, consequatur sed delectus repudiandae quaerat in iusto laboriosam minus totam nemo reiciendis excepturi accusamus necessitatibus odio. Ullam, debitis laudantium fugit adipisci consectetur dolorum hic aliquam atque vitae, harum, eaque, nobis dolor quo quos quibusdam. Laborum quidem magni dolores commodi repudiandae accusamus provident illum. Cumque sed, architecto, nemo eaque temporibus est saepe autem quasi, praesentium ex, natus nihil dignissimos.
@@ -97,12 +99,12 @@
 						</div>
 					</div>
 				</div>
-				<div>
-					<div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
 						<video controls>
-							<source src="../video/list_video.mp4" type="video">
+							<source src="../video/list_video.mp4">
 						</video>
-						<div>
+						<div class="collection-text">
 							<h3>List Element Item</h3>
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto. Fugit, corporis doloremque quibusdam suscipit autem, eligendi ab blanditiis beatae, minima sunt, consequatur sed delectus repudiandae quaerat in iusto laboriosam minus totam nemo reiciendis excepturi accusamus necessitatibus odio. Ullam, debitis laudantium fugit adipisci consectetur dolorum hic aliquam atque vitae, harum, eaque, nobis dolor quo quos quibusdam. Laborum quidem magni dolores commodi repudiandae accusamus provident illum. Cumque sed, architecto, nemo eaque temporibus est saepe autem quasi, praesentium ex, natus nihil dignissimos.
@@ -111,12 +113,12 @@
 						</div>
 					</div>
 				</div>
-				<div>
-					<div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
 						<video controls>
-							<source src="../video/list_video.mp4" type="video">
+							<source src="../video/list_video.mp4">
 						</video>
-						<div>
+						<div class="collection-text">
 							<h3>List Element Item</h3>
 							<p>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto. Fugit, corporis doloremque quibusdam suscipit autem, eligendi ab blanditiis beatae, minima sunt, consequatur sed delectus repudiandae quaerat in iusto laboriosam minus totam nemo reiciendis excepturi accusamus necessitatibus odio. Ullam, debitis laudantium fugit adipisci consectetur dolorum hic aliquam atque vitae, harum, eaque, nobis dolor quo quos quibusdam. Laborum quidem magni dolores commodi repudiandae accusamus provident illum. Cumque sed, architecto, nemo eaque temporibus est saepe autem quasi, praesentium ex, natus nihil dignissimos.
@@ -125,14 +127,15 @@
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</main>
 	<!-- /ОСНОВНА ЧАСТИНА -->
 
 	<!-- НИЖНЯ ЧАСТИНА САЙТУ -->
-	<footer>
-		<div>
+	<footer class="footer">
+		<div class="container">
 			<p>
 				Copyright &copy; 2023 Oleg Udod
 			</p>

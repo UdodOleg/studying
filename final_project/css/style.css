@@ -1,0 +1,139 @@
+/*GENERAL STYLES*/
+body {
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+/* HEADER */
+.header {
+	padding: 50px 0;
+	background-color: yellowgreen;
+}
+.header h1, 
+.header h2 {
+	color: greenyellow;
+	text-align: center;
+}
+
+/*NAVIGATION*/
+.page-navigation {
+	background-color: #222;
+	border-color:  red;
+	min-height: 64px;	
+}
+.page-navigation li {
+	float: left;
+	width: 100px;
+	padding:  5px;
+	margin-right: 5px;
+}
+.page-navigation a {
+	display: block;
+	color: #9d9d9d;
+	line-height: 4ex;
+	font-weight: bold;
+	text-align: center;
+}
+.page-navigation li a:hover {
+	color: yellowgreen;
+	background-color: black;
+}
+
+/* LOGIN FORM */
+.login {
+	padding: 15px 0;
+	float: right;
+}
+.login input[type="text"], .login input[type="password"] {
+	padding:  5px;
+	margin-right: 5px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+.login input[type="submit"] {
+	padding: 5px 15px;
+	border: 1px solid lightgrey;
+	border-radius: 10%;
+}
+.login input[type="submit"]:hover,
+button:hover {
+	color: red;
+	background-color: darkgrey;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* MAIN PART */
+.collections {
+  overflow: auto;
+  display: flex; 
+  margin: auto 5px auto 5px;
+}
+.collection-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #777;
+	font-size: 36px;
+	padding-left: 2px;
+}
+.collection-title small {
+	color: #777;
+	font-size: 70%;
+}
+.collection-title-outer {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  flex: 1;
+}
+.collection-item {
+	border: 1px solid #959595;
+}
+.collection-item img,.collection-item video {
+	width: 100%;
+}
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+	color: yellowgreen;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.collection-text p {
+	max-height: 75px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.collection-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+/* /MAIN */
+
+/* FOOTER */
+.footer {
+	background-color: yellowgreen;
+	color: white;
+	padding: 20px 0;
+	marging-top: 30px;
+}
+/* FOOTER */
