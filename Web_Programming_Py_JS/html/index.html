@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('../css/');
+    </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li id="gmail_link">Gmail</li>
-            <li id="photo_search">Зображення</li>
-            <li id="applications"></li>
-            <li id="account"></li>
+            <li id="gmail_link"><a href="https://mail.google.com/mail/u/0/?ogbl">Gmail</a></li>
+            <li id="photo_search"><a href="https://www.google.com/imghp?hl=uk&authuser=0&ogbl">Зображення</a></li>
+            <li id="applications">
+                <img src="../photo/applications.png" alt="applications.png">
+            </li>
+            <li id="account">
+                <img src="../photo/account_logo.png" alt="account_logo.png">
+            </li>
         </ul>
     </nav>
     <div id="Google-name">
@@ -20,13 +28,29 @@
         </p>
     </div>
     <div id="search_line">
-
+        <ul>
+            <li><img src="../photo/search_button.png" alt="search_button.png"></li>
+            <li><input type="text" id="line" placeholder=""></li>
+            <li><img src="../photo/keyboard.png" alt="keyboard.png"></li>
+            <li><img src="../photo/camera.png" alt="camera.png"></li>
+        </ul>
     </div>
     <div id="buttons">
-
+        <button id="button1"><a href="index.html">Пошук Google</a></button>
+        <button id="button2"><a href="https://www.google.com/doodles">Мені пощастить</a></button>
     </div>
     <footer>
-
+        <p>Україна</p>
+        <hr>
+        <ul>
+            <li><a href="https://about.google/?utm_source=google-UA&utm_medium=referral&utm_campaign=hp-footer&fg=1">Про Google</a></li>
+            <li><a href="https://ads.google.com/intl/uk_ua/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Реклама</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Для бізнесу</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Як працює Пошук</a></li>
+            <li><a href="https://policies.google.com/privacy?hl=uk&fg=1">Конфіденційність</a></li>
+            <li><a href="https://policies.google.com/terms?hl=uk&fg=1">Умови</a></li>
+            <li><a href="#">Налаштування</a></li>
+        </ul>
     </footer>
 </body>
 </html>
