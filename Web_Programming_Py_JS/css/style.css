@@ -33,18 +33,55 @@ nav > ul > li:nth-child(1):hover, nav > ul > li:nth-child(2):hover {
   transition: 1s;
 }
 
-#Google_name {
+.Google_name {
+  height: 300px;
   display: block;
-  height: 50%;
+  text-align: center;
 }
 
 p {
+  padding-top: 200px;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  text-align: center;
+  letter-spacing: 3px;
+}
+
+.search_line {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: grey;
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  padding: 0;
+}
+
+.search_line > li:nth-child(2) > input[type=text] {
+  border-style: none;
+  width: 300px;
+  height: 25px;
+}
+
+.search_line > li:nth-child(3), .search_line > li:nth-child(4) {
+  padding-left: 10px;
+}
+
+#buttons {
+  height: 30em;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  height: 40px;
 }
 
 footer {
   background-color: black;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
