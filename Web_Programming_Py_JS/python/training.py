@@ -1,10 +1,17 @@
-from squares import func
-#a = []
-#a = set()
-#a = [{"Name": "Oleg","Surname": "Udod"},{"Name": "Viktor","Surname": "Dolmatov"}];
-#print(a[0]["Name"]+" "+a[1]["Surname"]);
-for i in range (1,20):
-    print(str(i) + "^2= " + str(func(i,2)));
-
-for i in range (1,20):
-    print(str(i) + "^3= " + str(func(i,3)));
+from matplotlib import pyplot as plt
+import random
+import time
+x=[]
+y=[]
+massive=[]
+for i in range (10,1000):
+    for j in range (0,i):
+        massive.append(random.randint(0,10000))
+    start = time.time()
+    massive.sort()
+    end = time.time()
+    massive.clear()
+    x.append(i)
+    y.append((end-start))
+plt.plot(x,y)
+plt.show()
