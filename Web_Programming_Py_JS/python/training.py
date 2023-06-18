@@ -4,11 +4,11 @@ import time
 x=[]
 y=[]
 massive=[]
-for i in range (10,1000):
+for i in range (10,100):
     for j in range (0,i):
         massive.append(random.randint(0,10000))
     start = time.time()
-    massive.sort()
+    sorted(massive)
     end = time.time()
     massive.clear()
     x.append(i)
