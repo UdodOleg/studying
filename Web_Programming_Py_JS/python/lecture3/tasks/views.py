@@ -4,7 +4,7 @@ tasks = ["foo","bar","baz"]
 # Create your views here.
 class NewTaskForm(forms.Form):
     task=forms.CharField(label="New Task")
-    priority = forms.IntegerField(label="Priority", min_value=0, max_value=100)
+    # priority = forms.IntegerField(label="Priority", min_value=0, max_value=100)
 def index(request):
     return render(request,"tasks/index.html", {
         "tasks": tasks
