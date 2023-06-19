@@ -8,7 +8,7 @@ for i in range (10,100):
     for j in range (0,i):
         massive.append(random.randint(0,10000))
     start = time.time()
-    sorted(massive)
+    massive.sort();
     end = time.time()
     massive.clear()
     x.append(i)
